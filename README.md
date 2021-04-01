@@ -1,6 +1,6 @@
 # Save Shutdown for Adafruit Power Boost 1000c
 
-This project is a save shutdown for Adafruit Power Boost 1000c. You can use this circuit to have a delay in the power-off, after the user switched the device off. This can be usefull to detect that and execute a shutdown on e.g. your Raspberry Pi. The time depends on the RC-time-constant (current values 1MOhm, 22uF -> about 25s). You can try other values with the spice simulation in `simualtion/`, depending on your needs. Even though im an electrical engineer im not a master in circuit design, which means that there might be a better way to do this (potentially with less electrical components). If you have any suggestions create a pull request or open an issue.
+This project is a save shutdown for the Adafruit Power Boost 1000c. You can use this circuit to delay the power-off, after the user switched the device off. You can detect that and execute a shutdown on e.g. your Raspberry Pi. The available time depends on the RC-time-constant (current values 1MOhm, 22uF -> 1MOhm * 22uF = 22s). You can try other values with the (lt-)spice simulation in `simualtion/`, depending on your needs. Even though I'm an electrical engineer im not a master in circuit design, which means that there might be a better way to do this (potentially with less electrical components). If you have any suggestions create a pull request or open an issue.
 
 ## Usage
 
