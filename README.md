@@ -13,8 +13,6 @@ The circuit was created with Fritzing (https://fritzing.org/). Download and inst
 <br>
 <img src="img/save_shutdown_pcb.png" alt="pcb" width="500">
 <br>
-<img src="img/save_shutdown_schematic.png" alt="schematic" width="500">
-<br>
 <img src="img/save_shutdown_simulation.png" alt="simulation" width="500">
 
 ## Dependencies
