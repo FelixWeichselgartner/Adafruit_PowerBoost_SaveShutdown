@@ -8,12 +8,27 @@ The circuit was created with Fritzing (https://fritzing.org/). Download and inst
 
 ## Preview
 
-
+#### Breadboard schematic
 <img src="img/save_shutdown_breadboard.png" alt="breadboard" width="500">
 <br>
+
+#### PCB schematic
 <img src="img/save_shutdown_pcb.png" alt="pcb" width="500">
 <br>
+
+#### LT-Spice simulation
+The shutdown delay is approx. 22s, which matches the RC time contant of (1MOhm * 22uF =) 22s. 
 <img src="img/save_shutdown_simulation.png" alt="simulation" width="500">
+<br>
+
+#### Oscilloscope waveform
+The shutdown delay is approx. 12s with the RC time contant of (1MOhm * 22uF =) 22s. The blue waveform is the second terminal of the switch, the yellow is the 5V output of the Adafruit Power Boost 1000c.
+<img src="img/save_shutdown_oscilloscope.bmp" alt="oscilloscope" width="500">
+<br>
+
+#### Test circuit
+The arrow colors math the waveform colors from the oscilloscope. The red wire is connected to Bat+, black to Bat-. The 1MOhm resistor on the left side of the right picture is used to detect the button switch (here for oscilloscope, but can also be used for e.g. Raspberry Pi GPIO).
+<img src="img/save_shutdown_testbench.png" alt="testbench" width="500">
 
 ## Dependencies
 

@@ -1,0 +1,5 @@
+*.log
+*.op.raw
+*.raw
+img/2021*.jpg
+img/*.pdn
